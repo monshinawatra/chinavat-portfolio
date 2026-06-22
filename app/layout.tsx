@@ -19,6 +19,7 @@ export const metadata: Metadata = {
   title: "chinavat — ML researcher & game maker",
   description:
     "Portfolio of Chinavat: machine-learning research, projects, and game jams.",
+  icons: { icon: "/profile.jpg" },
 };
 
 export default function RootLayout({
