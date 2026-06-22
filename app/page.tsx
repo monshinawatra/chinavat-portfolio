@@ -1,18 +1,12 @@
-import Terminal from "@/components/Terminal";
-import SectionList from "@/components/SectionList";
-import { SECTIONS } from "@/lib/content";
+import LangRoot from "@/components/LangRoot";
+import { getLocalizedSections } from "@/lib/content";
 
 export default function Home() {
-  return (
-    <main className="w-full">
-      <Terminal />
-      {SECTIONS.map((s) => (
-        <SectionList key={s.slug} slug={s.slug} title={s.title} />
-      ))}
-      <footer className="mx-auto max-w-3xl px-5 py-10 text-xs text-muted">
-        <span className="text-accent">chinavat</span> ~ %
-        <span className="cursor" aria-hidden />
-      </footer>
-    </main>
-  );
+  // Build both language views at build time; the client toggle swaps between
+  // them without re-hitting the filesystem.
+  const data = {
+    en: getLocalizedSections("en"),
+    th: getLocalizedSections("th"),
+  };
+  return <LangRoot data={data} />;
 }

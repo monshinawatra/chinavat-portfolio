@@ -1,2 +1,0 @@
-name | Brainboost
-description | A mobile application helps user learning a class lecture by turning the lecture into a microlearning game. The application is developed by using Flutter framework with a LLM (Language Model) as a backend to generate the game content.

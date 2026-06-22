@@ -61,17 +61,14 @@ a {
   }
 }
 
-/* A dotted leader fills the gap between an item name and its description. */
-.leader {
-  flex: 1;
-  margin: 0 0.75rem;
-  border-bottom: 1px dotted var(--line);
-  transform: translateY(-0.25em);
-}
-
 :focus-visible {
   outline: 2px solid var(--amber);
   outline-offset: 2px;
+}
+
+/* Lightbox: dim the screen to phosphor-black, never pure #000. */
+dialog::backdrop {
+  background: rgb(10 14 13 / 0.92);
 }
 
 ::selection {

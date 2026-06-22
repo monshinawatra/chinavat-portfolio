@@ -1,2 +1,0 @@
-name | NeuroGami
-description | A monster training game that player actually train monster brain. Each monster has its own brain, which is a ML-based model. Every fight the monster fight, every situation can be used as training data to make the monster smarter.
