@@ -8,4 +8,5 @@ description_th | แอปติดตามนิสัยและกิจว
 year | 2024
 extradetail | Product thinking first: applies proven game-design reward loops — variable rewards, collection, progression — to a behavior-change problem, taken from concept all the way to a working app.
 extradetail_th | เน้นการคิดเชิงผลิตภัณฑ์เป็นหลัก (Product-driven mindset) โดยดึงเอากลไกการมอบรางวัลจากเกมที่ได้ผลจริง ทั้งระบบ Variable Rewards การสะสม และความก้าวหน้า มาใช้แก้ปัญหาพฤติกรรมของมนุษย์ พัฒนาตั้งแต่คอนเซปต์จนออกมาเป็นแอปพลิเคชันที่พร้อมใช้งาน
+github | https://github.com/BetterACS/GHT
 tags | mobile, gamification, game-dev, product-design

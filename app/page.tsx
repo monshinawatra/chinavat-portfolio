@@ -8,5 +8,9 @@ export default function Home() {
     en: getLocalizedSections("en"),
     th: getLocalizedSections("th"),
   };
-  return <LangRoot data={data} />;
+  // Frozen at build time → the site's last deploy/update date.
+  const updated = new Date().toLocaleDateString("en-CA", {
+    timeZone: "Asia/Bangkok",
+  });
+  return <LangRoot data={data} updated={updated} />;
 }
