@@ -81,7 +81,7 @@ export default function ItemCard({ item }: { item: Item }) {
                   <div key={k} className="flex gap-2">
                     <dt className="shrink-0 text-amber">{k}</dt>
                     <dd className="min-w-0 break-words text-muted">
-                      {/^https?:\/\//.test(v) ? (
+                      {/^(https?:\/\/|\/)/.test(v) ? (
                         <a
                           href={v}
                           target="_blank"
