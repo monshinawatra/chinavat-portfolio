@@ -9,4 +9,6 @@ year | 2025
 featured | true
 extradetail | A real LLM product, not a demo: a generation pipeline feeding a polished Flutter app. Demonstrates applied GenAI, mobile development, and a sharp read on the learning-science problem (microlearning, active recall).
 extradetail_th | ผลิตภัณฑ์จาก LLM ที่ใช้งานได้จริงไม่ใช่แค่เดโม วางระบบคอนเทนต์ส่งต่อให้แอป Flutter ได้อย่างลื่นไหล แสดงถึงการประยุกต์ใช้ GenAI การพัฒนาโมบายล์แอป และความเข้าใจในแง่ของ Learning Science ทั้งเรื่อง Microlearning และ Active Recall
+github | https://github.com/BetterACS/brainboost
+server | https://github.com/BetterACS/brainboost-ai-server
 tags | llm, mobile, edtech, gamification

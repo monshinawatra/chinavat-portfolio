@@ -8,4 +8,5 @@ description_th | ระบบสแกนและดึงข้อมูลจ
 year | 2024
 extradetail | Real-world document AI: composes four models (Grounded-SAM, CRAFT, TrOCR, LLM) into one robust pipeline. Shows systems thinking — picking and stitching the right tool at each stage of a noisy, real-input problem.
 extradetail_th | สัมผัสงานสาย Document AI ของจริง ด้วยการเชื่อมต่อโมเดลถึง 4 ตัวประกอบด้วย Grounded-SAM CRAFT TrOCR และ LLM ให้ทำงานร่วมกันเป็น Pipeline เดียวได้อย่างเสถียร สะท้อนถึงการคิดเชิงระบบในการเลือกใช้และเชื่อมโยงเครื่องมือที่เหมาะสมเพื่อแก้ปัญหาจากข้อมูลอินพุตในโลกจริงที่มีสัญญาณรบกวนสูง
+github | https://github.com/BetterACS/payment-extraction
 tags | computer-vision, multimodal, ocr, llm

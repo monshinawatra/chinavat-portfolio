@@ -8,4 +8,5 @@ description_th | เกมพัซเซิลกลไกแรงดึงด
 jams | GMTK Game Jam 2021
 extradetail | A complete, rule-driven puzzle game delivered within a 48-hour jam — constraint design, level logic, and the scope discipline to finish something playable under a hard deadline.
 extradetail_th | พัฒนาเกมพัซเซิลที่สมบูรณ์และขับเคลื่อนด้วยตรรกะจนจบกระบวนการภายใน 48 ชั่วโมง ฝึกฝนการออกแบบเงื่อนไข ลอจิกของด่าน และการบริหารเวลาเพื่อส่งมอบตัวเกมที่เล่นได้จริงตามกำหนด
+itch | https://monchinawat.itch.io/agnetic
 tags | game-jam, game-dev, puzzle

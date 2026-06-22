@@ -9,4 +9,5 @@ description_th | การทดลองใช้ GRPO เทรนระบบ
 extradetail | An experimental pairing of GRPO (DeepSeek-style RL) with a flow-matching VLA policy — still rare in published robotics work. Touches the full embodied-AI stack: policy modeling, simulation rollouts, and reward-driven fine-tuning.
 extradetail_th | บุกเบิกการทดลองนำ GRPO สไตล์ DeepSeek มาผสานเข้ากับนโยบาย VLA แบบ Flow-Matching ซึ่งยังเป็นแนวทางที่พบได้น้อยในงานวิจัยด้านหุ่นยนต์ ได้จับงานสาย Embodied AI ครบวงจร ทั้งการดีไซน์โมเดล การทำ Simulation Rollout และการ Fine-tune ด้วย Reward
 year | 2026
+paper | /papers/fra503-grpo-smolvla.pdf
 tags | reinforcement-learning, robotics, vla, research

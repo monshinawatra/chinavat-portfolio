@@ -9,4 +9,5 @@ year | 2026
 featured | true
 extradetail | Makes reinforcement learning the core game mechanic: the player is effectively curating a training curriculum. End-to-end execution — ML model design, real-time inference inside a game loop, and design that makes the learning legible and fun.
 extradetail_th | นำระบบ Reinforcement Learning มาใช้เป็นกลไกหลักของเกม โดยผู้เล่นจะรับบทบาทเหมือนคนออกแบบหลักสูตรการฝึก พัฒนาแบบครบวงจรตั้งแต่ออกแบบโมเดล ML การทำ Inference แบบเรียลไทม์ในลูปของเกม ไปจนถึงการดีไซน์ระบบให้เข้าใจง่ายและสนุกสนาน
+status | Live-service title in active development — KMUTT final project, continued post-graduation (private repo)
 tags | reinforcement-learning, machine-learning, game-dev
