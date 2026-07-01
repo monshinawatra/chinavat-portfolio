@@ -42,14 +42,22 @@ export default function Terminal({
             <dd className="text-muted">{education.note}</dd>
           </dl>
 
-          <div className="mt-6 flex gap-4 text-sm">
+          <div className="mt-6 flex flex-wrap gap-4 text-sm">
             <a
-              href="/cv.pdf"
+              href="/cv-gamedev.pdf"
               target="_blank"
               rel="noopener"
               className="border border-line px-3 py-1.5 text-accent transition-colors hover:border-accent"
             >
-              {intro.cv} ↗
+              {intro.cvGamedev} ↗
+            </a>
+            <a
+              href="/cv-robotics.pdf"
+              target="_blank"
+              rel="noopener"
+              className="border border-line px-3 py-1.5 text-accent transition-colors hover:border-accent"
+            >
+              {intro.cvRobotics} ↗
             </a>
           </div>
         </div>

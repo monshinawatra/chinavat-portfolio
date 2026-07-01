@@ -6,13 +6,15 @@ export const INTRO = {
     name: "Chinavat",
     tagline:
       "I'm a passionate developer and ML engineer focused on innovation, with experience across AI, games, and robotics.",
-    cv: "cv.pdf",
+    cvGamedev: "cv-gamedev.pdf",
+    cvRobotics: "cv-robotics.pdf",
   },
   th: {
     name: "ชินวัตร",
     tagline:
       "นักพัฒนาและ ML Engineer ที่คลั่งไคล้ในเทคโนโลยีและนวัตกรรมใหม่ ๆ มีประสบการณ์สนุก ๆ ในการทำทั้ง AI เกม และหุ่นยนต์",
-    cv: "cv.pdf",
+    cvGamedev: "cv-gamedev.pdf",
+    cvRobotics: "cv-robotics.pdf",
   },
 } as const;
 
@@ -54,7 +56,12 @@ export const UI = {
   },
 } as const;
 
-export type IntroStrings = { name: string; tagline: string; cv: string };
+export type IntroStrings = {
+  name: string;
+  tagline: string;
+  cvGamedev: string;
+  cvRobotics: string;
+};
 export type EducationStrings = {
   label: string;
   degree: string;
